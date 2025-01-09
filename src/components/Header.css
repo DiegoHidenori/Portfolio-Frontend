@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: inherit;
+}
