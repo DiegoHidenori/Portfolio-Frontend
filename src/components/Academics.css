@@ -1,0 +1,10 @@
+.capstone-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    height: fit-content;
+    min-height: 80vh;
+    margin: 0;
+    background-color: #FCEED1;
+    align-items: center;
+}

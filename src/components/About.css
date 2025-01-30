@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    height: fit-content;
+    min-height: 80vh;
+    margin: 0;
+    background-color: #FCEED1;
+    width: fit-content;
+    justify-content: center;
+}
+
+.bio {
+    width: 50%;
+    align-self: center;
+    font-size: 16px;
+}

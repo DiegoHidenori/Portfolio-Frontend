@@ -1,0 +1,105 @@
+#particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Keeps the particles behind other content */
+}
+
+.home-container-first {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    min-height: 120vh;
+    background-image: url('../assets/images/Tree.png');
+    background-repeat: no-repeat;
+    background-position: 95% 20%;
+    background-size: 35vw;
+}
+
+.home-name {
+    width: 100%;
+    font-size: 11vw;     /* this will make the text naturally fill the width */
+    /* border: 2px solid purple; */
+    text-align: center;
+}
+
+.home-paragraph {
+    align-self: flex-start;
+    /* border: 2px solid green; */
+    width: 65%;
+    max-width: 500px;
+}
+
+.home-container-second {
+    /* background-color: #FCEED1; */
+    /* border: 2px solid blue; */
+    min-height: 60vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0px;
+}
+
+.second-title {
+    margin: 0;
+    align-self: center;
+}
+
+.fan-card {
+    align-self: center;
+}
+
+.app__about {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.projects {
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;
+    
+}
+
+.project-item {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: 170px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* @media screen and (min-width: 2000px) {
+    .project-item {
+        width: 370px;
+        margin: 2rem;
+    }
+
+    img {
+        height: 320px;
+    }
+} */

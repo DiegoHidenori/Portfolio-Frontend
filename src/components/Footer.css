@@ -1,0 +1,17 @@
+.footer {
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    /* background-color: #FCEED1; */
+    background-image: url('../assets/images/background-design.jpg');
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+footer p, footer nav {
+    align-self: center;
+}
+
+footer nav {
+    padding: 5px;
+}
