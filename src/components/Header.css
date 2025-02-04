@@ -16,22 +16,39 @@ header {
     padding-right: 10px;
 }
 
-.navbar-links {
-    display: flex;
-    align-items: center;
+.navbar-title {
+    color: #845007;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
 }
 
-.navbar-links a {
+/* .navbar-title:hover {
+    color: green;
+} */
+
+.navbar-title:active {
+    transform: scale(0.96);
+}
+
+.navbar-links-container {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.navbar-links-container a {
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
     color: inherit;
 }
 
-.navbar-title {
-    color: #845007;
+.navbar-links {
+    font-weight: 900;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
 }
 
-.navbar-title:hover {
-    color: green;
+.navbar-links:active {
+    transform: scale(0.96);
 }

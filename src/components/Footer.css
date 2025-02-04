@@ -3,15 +3,26 @@
     border-bottom: 2px solid var(--primary-color);
     /* background-color: #FCEED1; */
     background-image: url('../assets/images/background-design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     padding: 50px 0px;
+    color: var(--secondary-color);
 }
 
 footer p, footer nav {
     align-self: center;
 }
 
-footer nav {
+.footer-nav * {
     padding: 5px;
+    color: var(--secondary-color);
+}
+
+.footer-nav a:not(:last-child)::after {
+    content: "|";  /* Adds separator */
+    margin-left: 10px;
+    color: var(--secondary-color);  /* Adjust color */
 }

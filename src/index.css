@@ -3,6 +3,7 @@
 
 :root {
   --primary-color: #845007;
+  --secondary-color: #FCEED1;
 }
 
 body {
@@ -28,6 +29,27 @@ body {
 
 .satoshi-font {
   font-family: 'Satoshi', sans-serif;
+}
+
+
+/* ========== OTHER CUSTOM CLASSES ========== */
+.no-select {
+  user-select: none;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+
+/* ========== BACKGROUND ========== */
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Keeps the particles behind other content */
 }
 
 code {

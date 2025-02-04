@@ -6,11 +6,15 @@ import About from './pages/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Academics from './pages/Academics';
+import ParticlesComponent from './components/Particles';
 
 function App() {
   return (
     <Router>
       <Header />
+      <div className='background-animated'>
+        <ParticlesComponent id='particles' />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
