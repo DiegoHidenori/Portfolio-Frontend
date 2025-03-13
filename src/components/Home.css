@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+/* body * {
+    border: 1px solid red;
+} */
+
 /* ========== FIRST SECTION ========== */
 
 .home-container-first {
@@ -21,7 +25,7 @@
 
 .home-name {
     width: 100%;
-    font-size: 11vw;     /* this will make the text naturally fill the width */
+    font-size: 9vw;     /* this will make the text naturally fill the width */
     /* border: 2px solid purple; */
     text-align: center;
 }
@@ -62,7 +66,7 @@
     flex-direction: column;
 }
 
-.projects {
+.projects, .capstone-docs {
     /* display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -85,7 +89,7 @@
 
 .project-item {
     width: 200px;
-    height: 250px;
+    height: 325px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -99,6 +103,55 @@ img {
     border-radius: 15px;
     object-fit: cover;
 }
+
+.project-item img, .capstone-item img {
+    pointer-events: none; /* Prevents mouse interactions like dragging */
+    user-drag: none; /* For Safari */
+    -webkit-user-drag: none; /* Prevents dragging in WebKit browsers (Chrome, Safari) */
+}
+
+
+/* ========== CAPSTONE SECTION ========== */
+.capstone {
+    /* background-color: #FCEED1; */
+    /* border: 2px solid blue; */
+    min-height: 60vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0px;
+}
+
+.capstone-title {
+    margin: 0;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.capstone-item {
+    width: 200px;
+    height: 325px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.projects-btn, .capstone-btn {
+    display: flex;
+    justify-self: center;
+    padding: 15px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    /* transition: transform 0.2s ease; */
+}
+
 
 /* ========== EDUCATION SECTION ========== */
 
